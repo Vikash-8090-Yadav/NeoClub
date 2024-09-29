@@ -108,7 +108,7 @@ async function runProposal(event) {
                   message: 'Transaction Successful',
                   description: (
                     <div>
-                      Transaction Hash: <a href={`https://sepolia.lineascan.build/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
+                      Transaction Hash: <a href={`https://neoxt4scan.ngd.network/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
                     </div>
                   )
                 });
@@ -158,7 +158,7 @@ async function runProposal(event) {
               message: 'Transaction Successful',
               description: (
                 <div>
-                  Transaction Hash: <a href={`https://sepolia.lineascan.build/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
+                  Transaction Hash: <a href={`https://neoxt4scan.ngd.network/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
                 </div>
               )
             });
@@ -299,7 +299,7 @@ async function voteOnProposal() {
                 message: 'Transaction Successful',
                 description: (
                   <div>
-                    Transaction Hash: <a href={`https://sepolia.lineascan.build/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
+                    Transaction Hash: <a href={`https://neoxt4scan.ngd.network/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
                   </div>
                 )
               });
@@ -442,7 +442,7 @@ function Proposal() {
                   <div className="row no-gutters align-items-center">
                     <div className="col mr-2">
                       <div className="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                        Club Balance (ETH)
+                        Club Balance (GAS)
                       </div>
                       <div className="h5 mb-0 font-weight-bold text-gray-800 club_balance">
                         -
@@ -553,7 +553,7 @@ function Proposal() {
                         <span id="proposal_destination" />
                       </b>{" "}
                       <br />
-                      Amount (in ETH):{" "}
+                      Amount (in GAS):{" "}
                       <b>
                         <span id="proposal_amount" />
                       </b>{" "}

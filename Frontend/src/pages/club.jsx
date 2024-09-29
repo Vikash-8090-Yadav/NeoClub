@@ -111,7 +111,7 @@ async function contributeClub() {
                 message: 'Transaction Successful',
                 description: (
                   <div>
-                    Transaction Hash: <a href={`https://sepolia.lineascan.build/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
+                    Transaction Hash: <a href={`https://neoxt4scan.ngd.network/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
                   </div>
                 )
               });
@@ -200,7 +200,7 @@ async function leaveClub() {
                 message: 'Transaction Successful',
                 description: (
                   <div>
-                    Transaction Hash: <a href={`https://sepolia.lineascan.build/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
+                    Transaction Hash: <a href={`https://neoxt4scan.ngd.network/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
                   </div>
                 )
               });
@@ -301,7 +301,7 @@ function Club() {
                 message: 'Transaction Successful',
                 description: (
                   <div>
-                    Transaction Hash: <a href={`https://sepolia.lineascan.build/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
+                    Transaction Hash: <a href={`https://neoxt4scan.ngd.network/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
                   </div>
                 )
               });
@@ -426,7 +426,7 @@ function Club() {
                     <div className="row no-gutters align-items-center">
                       <div className="col mr-2">
                         <div className="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                          Club Balance (ETH)
+                          Club Balance (GAS)
                         </div>
                         <div className="h5 mb-0 font-weight-bold text-gray-800 club_balance">
                           -
@@ -602,7 +602,7 @@ function Club() {
                   </div>
                   <div className="card-body">
                     <p>
-                      Amount of ETH: <br />
+                      Amount of GAS: <br />
                       <input
                         type="number"
                         id="aeAmount"

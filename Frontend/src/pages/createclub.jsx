@@ -194,7 +194,7 @@ function CreateClub() {
                 message: 'Transaction Successful',
                 description: (
                   <div>
-                   Transaction Hash: <a href={`https://sepolia.lineascan.build/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
+                   Transaction Hash: <a href={`https://neoxt4scan.ngd.network/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
                   </div>
                 )
               });
@@ -319,7 +319,7 @@ function CreateClub() {
                   <div className="row no-gutters align-items-center">
                     <div className="col mr-2">
                       <div className="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                        Balance (ETH)
+                        Balance (GAS)
                       </div>
                       <div className="h5 mb-0 font-weight-bold text-gray-800 view_balance_address">
                         -
