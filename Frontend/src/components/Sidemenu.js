@@ -12,7 +12,7 @@ import {Web3} from 'web3';
 
 const accountAddress = localStorage.getItem("filWalletAddress");
 
-const web3 = new Web3(new Web3.providers.HttpProvider("https://rpc.sepolia.linea.build"));
+const web3 = new Web3(new Web3.providers.HttpProvider("https://neoxt4seed1.ngd.network"));
 
 function SideMenu({ isOpen, setIsOpen, smartAccount, logout, address }) {
 

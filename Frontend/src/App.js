@@ -11,9 +11,6 @@ import CreateProposal from "./pages/createproposal";
 import Club from "./pages/club";
 import Proposal from "./pages/proposal";
 
-// import "./components/Auth.css"
-import Register from "./pages/register";
-import Login from "./pages/login";
 // import
 export const App = () =>{
     // Render the protected routes if authenticated
@@ -24,8 +21,6 @@ export const App = () =>{
         <Routes>
           <Route element={<Layout />}>
           <Route index element={<Base />} />
-            <Route path="/login" element={<Login/>} />
-            <Route path="/register" element={<Register/>} />
             <Route path="/joinclub" element={<JoinClub />} />
             <Route path="/createclub" element={<CreateClub />} />
             <Route path="/club" element={<Club />} />

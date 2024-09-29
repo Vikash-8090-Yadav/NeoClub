@@ -22,7 +22,7 @@ const ethers = require("ethers")
 
 const provider = new ethers.providers.Web3Provider(window.ethereum);
 const DataDaoAddress  = "0x8138489b863a68f224307a5D0Fa630917d848e25"
-const web3 = new Web3(new Web3.providers.HttpProvider("https://rpc.sepolia.linea.build"));
+const web3 = new Web3(new Web3.providers.HttpProvider("https://neoxt4seed1.ngd.network"));
 
 var contractPublic = null;
 

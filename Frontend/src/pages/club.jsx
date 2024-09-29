@@ -14,7 +14,7 @@ import GetProposals from "../getProposals";
 import axios from 'axios';
 import Tg from "../components/toggle";
 const ethers = require("ethers")
-const web3 = new Web3(new Web3.providers.HttpProvider("https://rpc.sepolia.linea.build"));
+const web3 = new Web3(new Web3.providers.HttpProvider("https://neoxt4seed1.ngd.network"));
 var contractPublic = null;
 
 var hash = null;

@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route, Link,Navigate } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
 
 import GetMyClubs from "../getMyClubs";
-import Login from "../pages/login";
 import Tg from "./toggle";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -13,7 +12,7 @@ import $, { error } from 'jquery';
 import { marketplaceAddress } from "../config";
 import {Web3} from 'web3';
 
-const web3 = new Web3(new Web3.providers.HttpProvider("https://rpc.sepolia.linea.build"));
+const web3 = new Web3(new Web3.providers.HttpProvider("https://neoxt4seed1.ngd.network"));
 var contractPublic = null;
 
 

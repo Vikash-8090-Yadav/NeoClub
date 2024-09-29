@@ -6,7 +6,7 @@ import $ from 'jquery';
 import ABI from "./SmartContract/artifacts/contracts/InvestmentClub.sol/InvestmentClub.json"
 
 
-const web3 = new Web3(new Web3.providers.HttpProvider("https://rpc.sepolia.linea.build"));
+const web3 = new Web3(new Web3.providers.HttpProvider("https://neoxt4seed1.ngd.network"));
 var contractPublic = null;
 
 async function getContract(userAddress) {
