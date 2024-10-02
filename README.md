@@ -1,7 +1,7 @@
 ![Screenshot from 2024-10-03 04-19-47](https://github.com/user-attachments/assets/2c020873-ebb0-4b09-b251-57e2c87078f2)
 
 
-## This dapp is live :
+## This dapp is live : https://neo-club.vercel.app/
 
 ## Demo Video:  
 
