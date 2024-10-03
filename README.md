@@ -24,7 +24,7 @@ https://neoxt4scan.ngd.network/address/0x6d89e1be18912d3f212e16a4e40afaed4eaf5a0
 #  💡Introduction
 
 
-Its a treasury Management Dapp which helps small startups & students to raise funds. ALl the funds distribution is based  on the basis of the vote.
+Its a Dao based  treasury Management Dapp which helps small startups & students to raise funds. ALl the funds distribution is based  on the basis of the vote.
 
 
 
